@@ -1,7 +1,6 @@
 # TIC TAC TOE
 
 Un simple juego de Tic Tac Toe interactivo, construido con HTML, CSS y JavaScript en el que dos personas pueden participar y divertirse por horas.
-.
 
 ## Demo
 La demostración del despliegue de este proyecto se puede ver aquí
