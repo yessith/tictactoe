@@ -1,6 +1,6 @@
 'use strict';
-
-import { Display } from './display.js';
+console.log('hola');
+import { Display } from '../../modules/display';
 
 class Tic_Tac_Toe extends Display {
 	constructor() {
@@ -72,7 +72,6 @@ class Tic_Tac_Toe extends Display {
 		const win = this.gameWon(indexRow, indexCol);
 		if (!win) {
 			this.DATA.turn++;
-			console.log(this.DATA.turn);
 			if (this.DATA.turn === this.DATA.total) {
 				this.DATA.board = this.createBoard();
 				this.clearGameBoard();
