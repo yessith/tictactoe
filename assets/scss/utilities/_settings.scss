@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+//Define all variables and values to use
+
+//    $LAYOUT
+
+//values Constant
+$baselineheight: 1.5;
+$pagemaxwidth: 450px;
+$radius: 8px;
+$hovertransition: 0.3s;
+$animationtime: 0.8s;
+
+//    $FONT-FACE
+
+//Fonts definitions
+$basefont: 'Roboto', sans-serif;
+$basefontweight: 400;
+$subtitlefontweight: 500;
+$titlefontweight: 700;
+$basefontsize: 1.6;
+
+//Font Size variables
+$size-vars: (
+	'x-small': 1.5,
+	'small': 1.6,
+	'normal': 2.4,
+	'big': 2.8,
+	'huge': 3,
+);
+
+//    $COLORS
+
+//Brand colors
+$color-primary: #0e6fff;
+$color-secondary: #ff4242;
+$color-tertiary: #ffc107;
+$dark: #23242a;
+$light: #ffffff;
+$towin: #28a745;
+$tolose: #dc3545;
+$color-borders: $light;
+
+// Links
+$linkcolor: $color-primary;
+$linkcolorhover: $linkcolor;
+$linkcolorvisited: $linkcolor;
+$linkcolorfocus: $linkcolor;
+
+// botones
+$buttonbackground: $color-secondary;
+$buttonbordercolor: currentcolor;
+$buttoncolor: $light;
+$buttonborderwidth: 1px;
+$buttonborderstyle: solid;

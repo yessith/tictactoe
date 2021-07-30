@@ -1,0 +1,12 @@
+/**
+ * 01) saber la elección del usuario => (Check)
+ * 02) como dibujar el tablero de juego => (Check)
+ * 03) como saber en que parte del tablero se hace click => (Check)
+ * 04) dibujar las fichas según el lugar que eligió cada jugador => (Check)
+ * 05) determinar el ganador de la partida => (Check)
+ * 06) mostrar partida ganada y imprimir en punto en el score => (Check)
+ * 07) limpiar el tablero una vez terminada la partida
+        e iniciar una nueva con los mismos jugadores => (Check)
+ * 08) crear botón de reset para reiniciar el juego y el marcador
+ */
+

@@ -1,0 +1,68 @@
+.start {
+	width: 100%;
+	height: 100vh;
+	@include flexCenter(space-evenly);
+	flex-direction: column;
+}
+
+.boardData {
+	@include max-width();
+	height: 25%;
+	@include flexCenter(space-between);
+	flex-direction: column;
+	&__token {
+		width: 100%;
+		margin: 30px 0;
+		@include flexCenter(space-evenly);
+	}
+	&__box {
+		width: 100%;
+		height: 90%;
+		@include flexCenter(space-around, space-evenly);
+	}
+	&__player {
+		width: 100%;
+		height: 100%;
+		@include flexCenter(space-evenly);
+		&__info {
+			width: 100%;
+			height: 100%;
+			font-size: 2rem;
+			@include flexCenter(space-evenly);
+			flex-direction: column;
+		}
+	}
+}
+
+.message {
+	@include max-width();
+	@include flexCenter();
+	width: 100%;
+	height: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.gameBoard {
+	height: 40%;
+	@include max-width();
+	@include flexCenter();
+	&__box__row,
+	&__box__cell {
+		@include flexCenter();
+	}
+	&__box__cell {
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+		border: 3px solid $color-primary;
+		margin: 3px;
+		border-radius: $radius;
+		font-size: 6rem;
+		& span {
+			width: 100%;
+			height: 100%;
+			@include flexCenter();
+		}
+	}
+}

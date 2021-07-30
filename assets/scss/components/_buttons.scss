@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+
+// btn es la clase principal para definir un botón
+
+%btn {
+	display: inline-block;
+	color: $buttoncolor;
+	text-align: center;
+	vertical-align: middle;
+	font-size: fs(normal);
+	text-transform: uppercase;
+	white-space: nowrap;
+	border-radius: $radius;
+	@include transition(all $hovertransition ease-in);
+	&:hover {
+		text-decoration: none;
+		color: $buttoncolor;
+	}
+	&:active,
+	&:focus {
+		outline: none;
+	}
+	&:visited {
+		color: $buttoncolor;
+	}
+}
+
+//Botón principal
+
+.reset__btn,
+.boardData__token--btn {
+	width: 150px;
+	height: 50px;
+	background-color: $buttonbackground;
+	@extend %btn;
+}

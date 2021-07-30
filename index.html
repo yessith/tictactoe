@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index,follow" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<title>Game Tic-Tac-Toe</title>
+		<link rel="canonical" content="" />
+		<link rel="shortcut icon" href="" />
+		<link rel="apple-touch-icon" href="" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<!-- <style>
+			.gameBoard__box {
+				display: grid;
+				grid-template: repeat(3, 100px) / repeat(3, 100px);
+			}
+			.gameBoard__box span {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border: 1px solid black;
+			}
+		</style> -->
+	</head>
+
+	<body>
+		<main class="start">
+			<h1>Game Tic-Tac-Toe</h1>
+			<section class="boardData">
+				<h2>Elige tu ficha</h2>
+				<div class="boardData__token">
+					<button class="boardData__token--btn" id="token_x">x</button>
+					<button class="boardData__token--btn" id="token_o">o</button>
+				</div>
+				<div class="boardData__box">
+					<div class="boardData__player">
+						<div class="boardData__player__info">
+							<h3>Player</h3>
+							<span id="nameA">?</span>
+						</div>
+						<div class="boardData__player__info">
+							<h3>Score</h3>
+							<span id="score_x">0</span>
+						</div>
+					</div>
+					<div class="boardData__player">
+						<div class="boardData__player__info">
+							<h3>Player</h3>
+							<span id="nameB">?</span>
+						</div>
+						<div class="boardData__player__info">
+							<h3>Score</h3>
+							<span id="score_o">0</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="message">
+				<p id="newMessage"></p>
+			</section>
+			<section class="gameBoard">
+				<div class="gameBoard__box"></div>
+			</section>
+			<button class="reset__btn">Reiniciar</button>
+		</main>
+		<script type="module" src="/assets/js/index.js"></script>
+	</body>
+</html>

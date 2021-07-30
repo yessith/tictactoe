@@ -1,0 +1,19 @@
+//    $PARTIALS
+
+// All files to be compiled
+
+// mixins, functions and any Scss focused logic
+
+@import 'utilities/settings', 'utilities/mixins', 'utilities/functions';
+
+// Base
+
+@import 'base/reset', 'base/site', 'base/typography';
+
+// HTML elements
+
+@import 'components/buttons', 'components/links';
+
+// Elements used for layouts
+
+@import  'layout/main';

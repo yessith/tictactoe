@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    $TIPOGRAFÍA
+\*------------------------------------*/
+
+// HEADINGS ====================================================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: $titlefontweight;
+	line-height: $baselineheight;
+	// text-rendering: optimizelegibility;
+}
+
+// Set headers line-height, margin bottom and font size
+
+@each $header, $font-size in (h1, 3) (h2, 2.5) (h3, 2) {
+	#{$header} {
+		font-size: ($font-size) * 1rem;
+	}
+}
+// TYPOGRAFÍA ====================================================
+
+span {
+	line-height: $baselineheight;
+	font-weight: $basefontweight;
+}

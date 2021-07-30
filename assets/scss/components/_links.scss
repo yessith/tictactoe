@@ -1,0 +1,18 @@
+//    $LINKS
+
+a {
+	text-decoration: none;
+	color: $linkcolor;
+	&:hover {
+		text-decoration: underline;
+		color: $linkcolorhover;
+	}
+	&:focus {
+		outline: thin dotted;
+		color: $linkcolorfocus;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
