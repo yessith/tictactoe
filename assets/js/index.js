@@ -1,5 +1,5 @@
 'use strict';
-console.log('hola');
+
 import { Display } from '../../modules/display';
 
 class Tic_Tac_Toe extends Display {
