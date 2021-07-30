@@ -1,7 +1,5 @@
 'use strict';
-console.log('hola');
-import { Display } from '../../modules/display';
-
+import { Display } from '../../modules/display.js';
 class Tic_Tac_Toe extends Display {
 	constructor() {
 		super();
